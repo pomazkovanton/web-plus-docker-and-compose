@@ -19,6 +19,7 @@ import { loggerConfig } from 'src/configs/logger.config';
 @Module({
   imports: [
     ConfigModule.forRoot({
+      envFilePath: '../.env',
       isGlobal: true,
       load: [config],
     }),

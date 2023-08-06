@@ -1,0 +1,13 @@
+# Deps
+node_modules
+
+# build
+dist
+
+# git
+.gitignore
+
+#logs
+logs
+
+README.md
